@@ -23,7 +23,7 @@
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.0",
     "dotenv-cli": "^8.0.0",
-    "turbo": "^2.5.0",
+    "turbo": "^2.5.2",
     "typescript": "^5.8.3"
   }
 }

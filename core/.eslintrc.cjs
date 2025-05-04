@@ -63,6 +63,11 @@ const config = {
     'test-results/**',
     '**/google_analytics4.js',
   ],
+  parserOptions: {
+    project: 'tsconfig.json',
+    tsconfigRootDir: __dirname,
+    sourceType: 'module',
+  },
 };
 
 module.exports = config;

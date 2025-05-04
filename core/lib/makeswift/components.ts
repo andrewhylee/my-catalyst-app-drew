@@ -15,6 +15,10 @@ import './components/product-detail/register';
 
 import './components/site-theme/register';
 
+// custom
+import './components/hello-world/hello-world.makeswift';
+import './components/my-product-carousel/my-product-carousel.makeswift';
+
 import { MakeswiftComponentType } from '@makeswift/runtime';
 
 import { runtime } from './runtime';

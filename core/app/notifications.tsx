@@ -10,7 +10,7 @@ export const CookieNotifications = (notification: ServerToastData) => {
 
   useEffect(() => {
     const { message, variant, position, description } = notification;
-
+    console.log("drew push test")
     if (notification.id !== lastRendered.current?.id) {
       toast[variant](message, { position, description });
       lastRendered.current = notification;
